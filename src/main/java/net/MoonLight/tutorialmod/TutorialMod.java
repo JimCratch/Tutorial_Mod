@@ -1,6 +1,7 @@
 package net.MoonLight.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.MoonLight.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -39,7 +40,7 @@ public class TutorialMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.Useless_Item);
+            event.accept(ModItems.uselessitem);
         }
     }
 

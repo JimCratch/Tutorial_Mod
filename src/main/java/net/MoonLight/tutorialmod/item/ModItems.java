@@ -1,6 +1,7 @@
-package net.MoonLight.tutorialmod;
+package net.MoonLight.tutorialmod.item;
 
 import net.MoonLight.tutorialmod.TutorialMod;
+
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +15,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Item>  Useless_Item = ITEMS.register("Useless Item",
+    public static final RegistryObject<Item>  uselessitem = ITEMS.register("uselessitem",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
