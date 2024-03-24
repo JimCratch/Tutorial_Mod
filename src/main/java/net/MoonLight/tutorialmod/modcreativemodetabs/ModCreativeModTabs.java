@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.USELESS_BLOCK.get());
                         pOutput.accept(ModBlocks.UGLY_BLOCK.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.RUBIX_CUBE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

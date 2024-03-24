@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item>  METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
+    public static final RegistryObject<Item> RUBIX_CUBE = ITEMS.register("rubix_cube",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
 
         ITEMS.register(eventBus);
