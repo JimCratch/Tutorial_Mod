@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catgeory": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:useless_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:uselessitem",
+    "count": 9
+  }
+}

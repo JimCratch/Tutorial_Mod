@@ -1,3 +1,7 @@
 {
-  "item.tutorialmod.uselessitem": "Useless Item"
+  "item.tutorialmod.uselessitem": "Useless Item",
+  "block.tutorialmod.ugly_block": "Ugly Block",
+  "block.tutorialmod.useless_block": "Useless Block",
+  "item.tutorialmod.metal_detector": "Metal Detector",
+  "creativetab.tutorial_tab": "Tutorial Mod"
 }

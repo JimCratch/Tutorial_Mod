@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 10,
+  "experience": 100,
+  "group": "useless",
+  "ingredient": {
+    "item": "tutorialmod:ugly_block"
+  },
+  "result": "tutorialmod:useless_block"
+}
