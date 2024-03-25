@@ -3,6 +3,14 @@
   "block.tutorialmod.ugly_block": "Ugly Block",
   "block.tutorialmod.useless_block": "Useless Block",
   "item.tutorialmod.metal_detector": "Metal Detector",
-  "item.tutorialmod.rubix_cube": "Rubix Cube",
+  "item.tutorialmod.rubix_cube": "Rubiks Cube",
+  "item.tutorialmod.strawberry": "Strawberry",
+  "item.tutorialmod.burning_fuel": "Burning Fuel",
+  "item.tutorialmod.useless_sword": "Useless Sword",
+  "item.tutorialmod.useless_hoe": "Useless Hoe",
+  "item.tutorialmod.useless_axe": "Useless Axe",
+  "item.tutorialmod.useless_pickaxe": "Useless Pickaxe",
+  "item.tutorialmod.useless_shovel": "Useless Shovel",
+  "tooltip.tutorialmod.metal_detector.tool": "This detects iron and diamond ore",
   "creativetab.tutorial_tab": "Tutorial Mod"
 }

@@ -28,6 +28,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.UGLY_BLOCK.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.RUBIX_CUBE.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.BURNING_FUEL.get());
+                        pOutput.accept(ModItems.USELESS_SWORD.get());
+                        pOutput.accept(ModItems.USELESS_AXE.get());
+                        pOutput.accept(ModItems.USELESS_HOE.get());
+                        pOutput.accept(ModItems.USELESS_PICKAXE.get());
+                        pOutput.accept(ModItems.USELESS_SHOVEL.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
