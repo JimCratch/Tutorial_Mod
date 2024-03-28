@@ -4,6 +4,7 @@ import net.MoonLight.tutorialmod.TutorialMod;
 
 import net.MoonLight.tutorialmod.item.custom.FuelItem;
 import net.MoonLight.tutorialmod.item.custom.MetalDetectorItem;
+import net.MoonLight.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -43,6 +44,15 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.USELESS,3, 5, new Item.Properties()));
     public static final RegistryObject<Item> USELESS_SHOVEL = ITEMS.register("useless_shovel",
             () -> new ShovelItem(ModToolTiers.USELESS,3, 5, new Item.Properties()));
+
+    public static final RegistryObject<Item> USELESS_HELMET = ITEMS.register("useless_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.USELESS, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> USELESS_CHESTPLATE = ITEMS.register("useless_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.USELESS, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> USELESS_LEGGINGS = ITEMS.register("useless_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.USELESS, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> USELESS_BOOTS = ITEMS.register("useless_boots",
+            () -> new ModArmorItem(ModArmorMaterials.USELESS, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
 

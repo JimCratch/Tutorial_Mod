@@ -11,6 +11,10 @@
   "item.tutorialmod.useless_axe": "Useless Axe",
   "item.tutorialmod.useless_pickaxe": "Useless Pickaxe",
   "item.tutorialmod.useless_shovel": "Useless Shovel",
-  "tooltip.tutorialmod.metal_detector.tool": "This detects iron and diamond ore",
+  "item.tutorialmod.useless_helmet": "Useless Helmet",
+  "item.tutorialmod.useless_chestplate": "Useless Chestplate",
+  "item.tutorialmod.useless_leggings": "Useless Leggings",
+  "item.tutorialmod.useless_boots": "Useless Boots",
+  "tooltip.tutorialmod.metal_detector.tooltip": "This detects all ores... i hope",
   "creativetab.tutorial_tab": "Tutorial Mod"
 }

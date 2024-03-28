@@ -16,6 +16,6 @@ public class ModToolTiers {
     public static final Tier USELESS = TierSortingRegistry.registerTier(
             new ForgeTier(5,1000,5f,10f,25,
                     ModTags.Blocks.NEEDS_USELESS_TOOL, () -> Ingredient.of(ModItems.uselessitem.get())),
-            new ResourceLocation(TutorialMod.MOD_ID, "uselessitem"), List.of(Tiers.NETHERITE), List.of());
+            new ResourceLocation(TutorialMod.MOD_ID, "useless"), List.of(Tiers.NETHERITE), List.of());
 
 }

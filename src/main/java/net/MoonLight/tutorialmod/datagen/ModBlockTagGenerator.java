@@ -25,7 +25,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
 
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .addTag(Tags.Blocks.ORES);
+                .add(ModBlocks.UGLY_BLOCK.get(),
+                        ModBlocks.USELESS_BLOCK.get()).addTag(Tags.Blocks.ORES);
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.UGLY_BLOCK.get(),

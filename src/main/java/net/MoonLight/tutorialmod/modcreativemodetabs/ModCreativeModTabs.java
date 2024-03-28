@@ -35,6 +35,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.USELESS_HOE.get());
                         pOutput.accept(ModItems.USELESS_PICKAXE.get());
                         pOutput.accept(ModItems.USELESS_SHOVEL.get());
+                        pOutput.accept(ModItems.USELESS_HELMET.get());
+                        pOutput.accept(ModItems.USELESS_CHESTPLATE.get());
+                        pOutput.accept(ModItems.USELESS_LEGGINGS.get());
+                        pOutput.accept(ModItems.USELESS_BOOTS.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

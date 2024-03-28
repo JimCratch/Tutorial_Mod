@@ -1,9 +1,11 @@
 package net.MoonLight.tutorialmod.datagen;
 
 import net.MoonLight.tutorialmod.TutorialMod;
+import net.MoonLight.tutorialmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -17,6 +19,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.USELESS_HELMET.get(),
+                        ModItems.USELESS_CHESTPLATE.get(),
+                        ModItems.USELESS_LEGGINGS.get(),
+                        ModItems.USELESS_BOOTS.get());
     }
 }
